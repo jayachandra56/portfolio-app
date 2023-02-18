@@ -47,3 +47,17 @@
     transform: translateX(0);
   }
 }
+
+@media only screen and (max-width: 992px) {
+  .background {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .imageAbt{
+    margin-top: 80px;
+  }
+  #aboutID{
+    padding: 150px 0px ;
+  }
+}

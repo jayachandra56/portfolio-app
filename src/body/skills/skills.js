@@ -11,7 +11,7 @@ function skills() {
             <h1>Skills</h1>
             <div className="container ">
                 <div className="row p-1 rounded">
-                    <div className="col-md-4 col-sm-12">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
                         <h3>Mobile Developer</h3>
                         <div className="flip-card  shadow">
                             <div className="flip-card-inner">
@@ -24,7 +24,7 @@ function skills() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-12">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
                         <h3>Web Developer</h3>
                         <div className="flip-card shadow">
                             <div className="flip-card-inner">
@@ -37,7 +37,7 @@ function skills() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-12">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
                         <h3>Backend Developer</h3>
                         <div className="flip-card shadow">
                             <div className="flip-card-inner">
@@ -50,7 +50,7 @@ function skills() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-12">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
                         <h3>Databases</h3>
                         <div className="flip-card shadow">
                             <div className="flip-card-inner">
@@ -63,7 +63,7 @@ function skills() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-12">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
                         <h3>Tools</h3>
                         <div className="flip-card shadow">
                             <div className="flip-card-inner">
