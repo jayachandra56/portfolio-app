@@ -19,7 +19,7 @@ function skills() {
                                     <img src={mobile} className="imageSkill" alt="Mobile Development" />
                                 </div>
                                 <div className="flip-card-back">
-                                    <h5>Java, Flutter</h5>
+                                    <h5>Java, Flutter, React Native</h5>
                                 </div>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ function skills() {
                                     <img src={web} className="imageSkill" alt="Web Development" />
                                 </div>
                                 <div className="flip-card-back">
-                                    <h5>HTML, CSS, Javascript, ReactJS</h5>
+                                    <h5>HTML, CSS, Javascript, ReactJS, Type Script, RTL</h5>
                                 </div>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ function skills() {
                                     <img src={backend} className="imageSkill" alt="Backend" />
                                 </div>
                                 <div className="flip-card-back">
-                                    <h5>Php, NodeJS</h5>
+                                    <h5>Php, NodeJS, GraphQL</h5>
                                 </div>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ function skills() {
                                     <img src={databases} className="imageSkill" alt="DataBases" />
                                 </div>
                                 <div className="flip-card-back">
-                                    <h5>MySQL (SQL), Firebase Firestore (NoSQL)</h5>
+                                    <h5>MySQL (SQL Database), Firebase Firestore & Mango DB (NoSQL Databases)</h5>
                                 </div>
                             </div>
                         </div>

@@ -15,7 +15,7 @@
 .projectDesc{
     color: #6d6c6c;
 }
-.joyhoo,.dilpay , .avani{
+.project-card{
     background-color: white;
     border-radius: 15px;
     margin: 15px;
@@ -23,14 +23,7 @@
     text-align: left;
     animation: 1s ease-out 0s 1 slideInFromLeft;
 }
-.kolors, .restaurant{
-    background-color: white;
-    border-radius: 15px;
-    margin: 15px;
-    padding:20px;
-    text-align: left;
-    animation: 1s ease-out 0s 1 slideInFromRight;
-}
+
 .image{
     width: 200px;
     height: auto;
