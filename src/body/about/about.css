@@ -8,9 +8,10 @@
   background-color: #fff;
   padding: 10px 0px 80px 0px;
   display: flex; /* Enable Flexbox */
-  flex-direction: row; /* Stack items vertically */
+  flex-direction: column; /* Default to column for mobile */
   align-items: center; /* Center items horizontally */
   justify-content: center; /* Center items vertically */
+  gap: 20px;
 }
 
 .imageAbt {
@@ -50,5 +51,11 @@
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-100%);
+  }
+}
+
+@media (min-width: 768px) {
+  .about {
+    flex-direction: row; /* Switch to row for desktop */
   }
 }
