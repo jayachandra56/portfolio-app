@@ -1,33 +1,42 @@
-#aboutID{
-  padding: 130px 0px ;
+#aboutID {
+  padding: 30px 0px;
 }
+
 .about {
   width: 100%;
   background-size: cover;
   background-color: #fff;
-  padding: 150px 0px 80px 0px;
+  padding: 10px 0px 80px 0px;
+  display: flex; /* Enable Flexbox */
+  flex-direction: row; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
 }
 
 .imageAbt {
-  border-radius: 50%;
-  width: 60%;
+  border-radius: 50%; /* Keeps the circular shape */
+  width: 300px;
+  height: 300px;
+  object-fit: cover; /* Ensures the image fills the container without stretching */
+  object-position: top; /* Aligns the image to the top */
   box-shadow: 0px 0px 25px 0px rgb(77, 76, 76);
 }
 
 .content {
   color: #5A35B8;
   animation: 1s ease-out 0s 1 slideInFromLeft;
+  text-align: center; /* Center text content */
+  
 }
 
 .content p {
   color: rgb(63, 62, 62);
   font-weight: 600;
-  font-size: x-large;
-  font-family: 'Arima Madurai', cursive;
-  font-family: 'Fredericka the Great', cursive;
+  font-size: 400;
+  padding-left: 20px;
 }
 
-.btn-color:hover a{
+.btn-color:hover a {
   text-decoration: none !important;
   color: whitesmoke !important;
 }
@@ -41,23 +50,5 @@
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-100%);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  .background {
-    display: flex !important;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-  .imageAbt{
-    margin-top: 80px;
-  }
-  #aboutID{
-    padding: 150px 0px ;
   }
 }

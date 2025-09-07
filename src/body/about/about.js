@@ -1,24 +1,28 @@
 import React from 'react'
 import './about.css'
-import web from '../../images/about.jpg';
+import web from '../../images/profile_pic.jpg';
+import resume from '../../images/JayaChandra_Resume_Formatted.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowAltCircleDown } from '@fortawesome/free-solid-svg-icons'
 function about(){
     return(
         <div className=" container-fluid about px-0" id="aboutID">
-            <div className="background px-3">
-                <div className="col-lg-6 col-md-12 col-sm-12  content">
+            {/* <div className="background px-3"> */}
+                <div className="col-lg-8 col-md-12 col-sm-12 content">
                     <h1>Hey there,<br/> I'm Jaya Chandra Thottempudi</h1><br/>
-                    <p>Having total of 5+ Years of experience in Softwaare Development.</p>
-                    <p>Having 3+ Years of experience as a MERN Stack Developer.</p>
-                    <p>Having 2+ Years of experience as a Native Android Developer using Java.</p>
+                    <p>Results-driven Software Developer with 6+ years of experience in building scalable, high-performance web and mobile applications. Strong expertise in React.js, Node.js, and PHP for full-stack development, along with hands-on experience in developing native Android applications using Java.
+                    <br /> For the past year, actively working as a Guidewire Jutro Digital Platform (JDP) Developer, developing and customizing Digital Applications integrated with Guidewire PolicyCenter, ClaimCenter, and BillingCenter using the Jutro framework and Guidewire Edge APIs.</p>
                     <br/><br/>
                     <span className="btn-outline-primary btn btn-color"><a href="https://github.com/jayachandra56?tab=repositories" target="_blank">GitHub Profile</a></span>
+                    &nbsp;&nbsp;
+                    <span className="btn-outline-primary btn btn-color">
+                        <a href={resume} target="_blank" rel="noopener noreferrer">Download Resume</a>
+                    </span>
                 </div>
-                <div className="col-lg-6 col-md-12 col-sm-12">
+                <div className="col-lg-4 col-md-12 col-sm-12">
                     <img src={web} className="imageAbt" alt="Web Development"/><br/>    
                 </div> 
-            </div>
+            {/* </div> */}
         </div>
 
     )

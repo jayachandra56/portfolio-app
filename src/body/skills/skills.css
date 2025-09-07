@@ -2,8 +2,12 @@
   padding: 100px 0px ;
 }
 .skills{
-  background-color: #50409a;
-}.container{
+  background: linear-gradient(135deg, #50409a, #6a5acd);
+  color: #fff;
+  padding: 100px 0;
+}
+
+.container{
 color:#fff;
 
 }
@@ -40,22 +44,22 @@ color:#fff;
     border-radius: 8px;
 }
 .flip-card {
-    background-color: transparent;
-    width: 300px;
-    height: 200px;
-    margin: auto;
-    border-radius: 8px;
-    border: none;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  }
+  background-color: transparent;
+  width: 300px; /* Ensure the card has a fixed width */
+  height: 200px; /* Ensure the card has a fixed height */
+  margin: 20px auto; /* Add spacing between cards */
+  border-radius: 8px;
+  border: none;
+  perspective: 1000px; /* Add perspective for 3D effect */
+}
   
   /* This container is needed to position the front and back side */
   .flip-card-inner {
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 100%; /* Match the width of the card */
+    height: 100%; /* Match the height of the card */
     text-align: center;
-    transition: transform 0.8s;
+    transition: transform 0.8s ease-in-out; /* Smooth transition */
     transform-style: preserve-3d;
   }
   
@@ -75,8 +79,11 @@ color:#fff;
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
-    /* background-color: #bbb; */
-    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; /* Add a background color */
+    border-radius: 8px;
   }
   
   /* Style the back side */
